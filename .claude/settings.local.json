@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/main.tsx)",
+      "Bash(curl -s http://localhost:5173/src/app/App.tsx)",
+      "Bash(curl -s http://localhost:5173/src/app/components/Layout.tsx)",
+      "Bash(curl -s http://localhost:5173/__TRACKED_VAR__)",
+      "Bash(ls .env*)",
+      "Bash(grep -E '\\\\.tsx$')",
+      "Bash(grep -v \"^ui$\")",
+      "WebSearch",
+      "Bash(grep *)",
+      "Bash(npx tsc *)",
+      "Bash(npx vite *)"
+    ]
+  }
+}
